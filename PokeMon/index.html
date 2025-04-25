@@ -8,9 +8,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="font-sans">
-    <div id="content-box" class="w-[500px] h-[500px]">
+    <div
+      id="content-box"
+      class="flex w-[500px] h-[500px] border-cyan-300 border-8 rounded-md bg-green-600 m-auto mt-[60px]"
+    >
       <!-- Left side , display pokemon info-->
-      <div id="pokemon-info">
+      <div id="pokemon-info" class="h-full w-1/2 bg-cyan-400">
         <img id="pokemon-img" src="" alt="" />
         <div id="pokemon-types">
           <span class="type-box grass"> Grass</span>
@@ -18,9 +21,10 @@
         </div>
         <div id="pokemon-description"></div>
       </div>
-      <div id="pokemon-list"></div>
+      <div id="pokemon-list" class="h-full w-1/2 bg-yellow-400"></div>
     </div>
 
-    <script src="./scripts/script.js"></script>
+    <!-- <script src="./scripts/script.js"></script>-->
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
