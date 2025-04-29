@@ -4,21 +4,19 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Person></Person>
+      <Person />
+      <Person />
     </>
   );
 }
 
 function Person() {
   const name = "John Doe";
-  const age = 32;
   return (
-    <>
+    <div className="justify-center flex flex-col items-center">
       <h1>Person</h1>
-      <p>
-        My name is {name} and age: {age}
-      </p>
-    </>
+      <p className="bg-red-500 text-6xl">My name is {name}</p>
+    </div>
   );
 }
 
