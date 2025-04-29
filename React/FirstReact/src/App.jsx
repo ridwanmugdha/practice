@@ -1,11 +1,14 @@
 import "./App.css";
+import Todo from "./Todo.jsx";
 
 function App() {
   return (
     <>
       <h1>Vite + React</h1>
-      <Person />
-      <Person />
+
+      <ul>
+        <Todo name="Learn More"></Todo>
+      </ul>
     </>
   );
 }
