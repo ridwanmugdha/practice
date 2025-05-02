@@ -62,16 +62,5 @@ const data2 = {
   },
 };
 
-//console.log(data2.form_order);
-
-//console.log(data2.pokemon.name);
-//console.log(data2.pokemon.url);
 let a = data2.types[0].type.name;
 console.log(a);
-//console.log(data2.boolean);
-
-//console.log(data2.color);
-//console.log(data2.null);
-//console.log(data2.number);
-//console.log(data2.object.a);
-//console.log(data2.string);
